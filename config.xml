@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget 
+	id="com.rmsmart" 
+	version="1.1"
+	android-versionCode="1.1"
+	ios-CFBundleVersion="1.1"	
+	xmlns="http://www.w3.org/ns/widgets" 
+	xmlns:gap="http://phonegap.com/ns/1.0">
+    
+	<name>Wettor - Marcas & Patentes</name>
+    <description>
+        Wettor - Marcas & Patentes
+    </description>
+    <author email="atendimento@imaginecomunicacao.com.br" href="http://www.imaginecomunicacao.com.br/">
+        Imagine Comunicação Digital
+    </author>
+    <content src="index.html" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="android-minSdkVersion" value="14" />
+	
+    <preference name="orientation" value="portrait" />
+	<preference name="permissions" value="none" />
+    <preference name="target-device" value="universal" />
+	<preference name="fullscreen" value="true" />
+	<feature name="http://api.phonegap.com/1.0/device" />
+	<feature name="http://api.phonegap.com/1.0/network"/>
+
+    <plugin name="cordova-plugin-whitelist" source="npm" />
+    <plugin name="cordova-plugin-network-information" source="npm" spec="~1.2.0" />
+    <plugin name="cordova-plugin-splashscreen" source="npm" />
+	
+	<icon height="1024" width="1024" src="www/res/icone-ios-1024.png" />
+	<splash src="www/res/splash.png" />
+	<preference name="SplashScreen" value="screen" />
+	<preference name="SplashScreenDelay" value="5000"/>
+	<preference name="AutoHideSplashScreen" value="true" />
+    <platform name="android">
+        <icon density="ldpi" src="www/res/icon/android/drawable-ldpi-icon.png" />
+        <icon density="mdpi" src="www/res/icon/android/drawable-mdpi-icon.png" />
+        <icon density="hdpi" src="www/res/icon/android/drawable-hdpi-icon.png" />
+        <icon density="xhdpi" src="www/res/icon/android/drawable-xhdpi-icon.png" />
+        <icon density="xxhdpi" src="www/res/icon/android/drawable-xxhdpi-icon.png" />
+        <icon density="xxxhdpi" src="www/res/icon/android/drawable-xxxhdpi-icon.png" />
+        <splash gap:qualifier="land-ldpi" src="www/res/screen/android/drawable-land-ldpi-screen.png" />
+        <splash gap:qualifier="land-mdpi" src="www/res/screen/android/drawable-land-mdpi-screen.png" />
+        <splash gap:qualifier="land-hdpi" src="www/res/screen/android/drawable-land-hdpi-screen.png" />
+        <splash gap:qualifier="land-xhdpi" src="www/res/screen/android/drawable-land-xhdpi-screen.png" />
+        <splash gap:qualifier="land-xxhdpi" src="www/res/screen/android/drawable-land-xxhdpi-screen.png" />
+        <splash gap:qualifier="land-xxxhdpi" src="www/res/screen/android/drawable-land-xxxhdpi-screen.png" />
+        <splash gap:qualifier="port-ldpi" src="www/res/screen/android/drawable-port-ldpi-screen.png" />
+        <splash gap:qualifier="port-mdpi" src="www/res/screen/android/drawable-port-mdpi-screen.png" />
+        <splash gap:qualifier="port-hdpi" src="www/res/screen/android/drawable-port-hdpi-screen.png" />
+        <splash gap:qualifier="port-xhdpi" src="www/res/screen/android/drawable-port-xhdpi-screen.png" />
+        <splash gap:qualifier="port-xxhdpi" src="www/res/screen/android/drawable-port-xxhdpi-screen.png" />
+        <splash gap:qualifier="port-xxxhdpi" src="www/res/screen/android/drawable-port-xxxhdpi-screen.png" />
+    </platform>
+	<engine name="ios" spec="^4.5.1" />
+    <platform name="ios">
+        <icon height="57" src="www/res/icon/ios/icon.png" width="57" />
+        <icon height="114" src="www/res/icon/ios/icon@2x.png" width="114" />
+        <icon height="40" src="www/res/icon/ios/icon-40.png" width="40" />
+        <icon height="80" src="www/res/icon/ios/icon-40@2x.png" width="80" />
+        <icon height="50" src="www/res/icon/ios/icon-50.png" width="50" />
+        <icon height="100" src="www/res/icon/ios/icon-50@2x.png" width="100" />
+        <icon height="60" src="www/res/icon/ios/icon-60.png" width="60" />
+        <icon height="120" src="www/res/icon/ios/icon-60@2x.png" width="120" />
+        <icon height="180" src="www/res/icon/ios/icon-60@3x.png" width="180" />
+        <icon height="72" src="www/res/icon/ios/icon-72.png" width="72" />
+        <icon height="144" src="www/res/icon/ios/icon-72@2x.png" width="144" />
+        <icon height="76" src="www/res/icon/ios/icon-76.png" width="76" />
+        <icon height="152" src="www/res/icon/ios/icon-76@2x.png" width="152" />
+        <icon height="29" src="www/res/icon/ios/icon-small.png" width="29" />
+        <icon height="58" src="www/res/icon/ios/icon-small@2x.png" width="58" />
+        <icon height="87" src="www/res/icon/ios/icon-small@3x.png" width="87" />
+        <icon height="1024" width="1024" src="www/res/icone-ios-1024.png" />
+		<splash height="1136" src="www/res/screen/ios/Default-568h@2x~iphone.png" width="640" />
+        <splash height="1334" src="www/res/screen/ios/Default-667h.png" width="750" />
+        <splash height="2208" src="www/res/screen/ios/Default-736h.png" width="1242" />
+        <splash height="1242" src="www/res/screen/ios/Default-Landscape-736h.png" width="2208" />
+        <splash height="1536" src="www/res/screen/ios/Default-Landscape@2x~ipad.png" width="2048" />
+        <splash height="768" src="www/res/screen/ios/Default-Landscape~ipad.png" width="1024" />
+        <splash height="2048" src="www/res/screen/ios/Default-Portrait@2x~ipad.png" width="1536" />
+        <splash height="1024" src="www/res/screen/ios/Default-Portrait~ipad.png" width="768" />
+        <splash height="960" src="www/res/screen/ios/Default@2x~iphone.png" width="640" />
+        <splash height="480" src="www/res/screen/ios/Default~iphone.png" width="320" />
+    </platform>
+	
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+	<allow-navigation href="*" />
+	<allow-intent href="*" />
+	<access origin="*" allows-arbitrary-loads-in-media="true" allows-arbitrary-loads-in-web-content="true" allows-local-networking="true" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+</widget>
+
