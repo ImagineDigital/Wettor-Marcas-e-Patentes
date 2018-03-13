@@ -32,7 +32,7 @@
 	<icon height="1024" width="1024" src="www/res/icone-ios-1024.png" />
 	<splash src="www/res/splash.png" />
 	<preference name="SplashScreen" value="screen" />
-	<preference name="SplashScreenDelay" value="5000"/>
+	<preference name="SplashScreenDelay" value="7000"/>
 	<preference name="AutoHideSplashScreen" value="true" />
     <platform name="android">
         <icon density="ldpi" src="www/res/icon/android/drawable-ldpi-icon.png" />
